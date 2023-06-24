@@ -1,0 +1,202 @@
+@font-face {
+    src: url(corporate_a_light-webfont.woff2);
+    font-family: corporate;
+}
+
+* {
+    font-family: corporate;
+}
+
+body {
+    background: linear-gradient(to right, rgb(22, 23, 24), rgb(154, 155, 156), rgb(223, 235, 241));
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+.conteudo-1 {
+    background-image: url(https://www2.mercedes-benz.com.br/content/brazil/pt_BR/passengercars/_jcr_content/root/responsivegrid/simple_stage_1564354.component.damq6.3296855880728.jpg/mercedes-eq-eqa-h243-highlights-story-videostill-2730x1536-03-2021.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+    border: groove 1px black;
+    margin-top: 200px;
+    margin-left: -10px;
+    box-shadow: 15px 15px 5px black;
+}
+
+.topo-preto {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: black;
+    padding-top: 2px;
+    padding-bottom: 33px;
+    margin-top: -100px;
+}
+
+.logo-1 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.logo-2 {
+    color: white;
+    margin-top: -50px;
+    margin-left: 100px;
+}
+
+.escrita-topo-1 {
+    color: white;
+    font-size: 11px;
+    margin-top: -30px;
+    margin-left: 300px;
+}
+
+.pesquisa {
+    margin-top: -43px;
+    margin-left: 500px;
+}
+
+input[type="text"] {
+    width: 100px;
+    background: gray;
+    padding: 10px;
+    opacity: 0.5;
+} 
+
+input[type="text"]:hover {
+    width: 110px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+.menu-drop {
+    margin-top: -41px;
+    margin-left: 600px;
+}
+
+.menu-dropdown {
+    position: relative;
+}
+
+.links {
+    position: absolute;
+}
+
+.links {
+    display: none;
+    margin-top: 25px;
+    margin-left: -25px;
+}
+
+a:hover, .menu-dropdown:hover .botao-links{
+    background: white;
+    color: black;
+}
+
+.menu-dropdown:hover .links {
+    display: inline-block;
+}
+
+.text-central {
+    color: white;
+    margin-top: 150px;
+    margin-left: 10px;
+}
+
+.fundo-preto-2 {
+    background: black;
+    height: 120px;
+    margin-top: 280px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.botao-1 {
+    font-size: 15px; 
+    margin-left: 10px;
+    background: none;
+    border: groove 3px rgb(18, 125, 224);
+    padding: 5px;
+}
+
+.botao-2 {
+    font-size: 15px;
+    background: rgb(18, 125, 224);
+    padding: 5px;
+}
+
+.conteudo-2 {
+    background-image: url(https://www2.mercedes-benz.com.br/passengercars/content-pool/marketing-pool/product-page-stages/eqa-h243-stage/_jcr_content/par/stageelement.MQ6.0.stage.20221031185947.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+    border: groove 1px black;
+    margin-top: 300px;
+    margin-left: -50px;
+    box-shadow: 15px 15px 5px black;
+}
+
+.linha-1 {
+    height: 90px;
+    width: 1px;
+    background: rgb(28, 185, 133);
+    border: groove 1px rgb(18, 255, 216);
+    margin-left: 10px;
+}
+.linha-2 {
+    height: 90px;
+    width: 1px;
+    background: rgb(28, 185, 133);
+    border: groove 1px rgb(18, 255, 216);
+    margin-top: -92px;
+    margin-left: 185px;
+}
+.linha-3 {
+    height: 90px;
+    width: 1px;
+    background: rgb(28, 185, 133);
+    border: groove 1px rgb(18, 255, 216);
+    margin-top: -91px;
+    margin-left: 385px;
+}
+
+.text-1 {
+    color: white;
+    white-space: nowrap;
+    margin-left: 10px;
+}
+
+.text-2 {
+    color: white;
+    white-space: nowrap;
+    margin-left: 10px;
+}
+
+.text-3 {
+    color: white;
+    white-space: nowrap;
+    margin-left: 10px;
+}
+
+
+
+
